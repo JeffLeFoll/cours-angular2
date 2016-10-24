@@ -1,0 +1,16 @@
+<table>
+	<tr>
+		<th>Titre</th>
+		<th>Auteur</th>
+		<th>Couverture</th>
+		<th>Description</th>
+		<th>Prix</th>
+	</tr>
+	<tr *ngFor="let livre of livres">
+		<td>{{livre.titre}}</td>
+		<td>{{livre.auteur}}</td>
+		<td><img [src]='livre.couverture'></td>
+		<td>{{livre.description}}</td>
+		<td>{{livre.prix.valeur}} {{livre.prix.devise}}</td>
+	</tr>
+</table>

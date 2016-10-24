@@ -1,0 +1,14 @@
+<md-card class="carte" *ngFor="let film of films">
+	<md-card-title-group>
+		<img md-card-md-image [src]="film.jaquette">
+		<md-card-title>{{film.titre}}</md-card-title>
+		<md-card-subtitle>{{film.type}}</md-card-subtitle>
+	</md-card-title-group>
+	<md-card-title>{{film.acteurs}}</md-card-title>
+	<md-card-content>
+		<p>{{film.description}}</p>
+	</md-card-content>
+	<md-card-actions align="end">
+		<button md-button>ACHETER</button>
+	</md-card-actions>
+</md-card>

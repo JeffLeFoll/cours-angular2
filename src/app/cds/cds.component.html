@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<th>Titre</th>
+		<th>Chanteur</th>
+		<th>Jaquette</th>
+		<th>Prix</th>
+	</tr>
+	<tr *ngFor="let cd of cds">
+		<td>{{cd.titre}}</td>
+		<td>{{cd.chanteur}}</td>
+		<td><img [src]='cd.jaquette'></td>
+		<td>{{cd.prix.valeur}} {{cd.prix.devise}}</td>
+	</tr>
+</table>

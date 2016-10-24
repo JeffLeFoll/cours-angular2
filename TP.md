@@ -29,6 +29,9 @@ Pour afficher une barre de navigation avec des onglets il faut utiliser le code 
 	</md-tab>
 </md-tab-group>
 ```
+D'une mainère plus générale, le style visuel est réalisé grace aux composants Material Design en cours de développement par l'équipe de Google.
+Pour savoir quels composants sont disponible et comment les utiliser il faut lire la doc là : https://github.com/angular/material2
+
 ## Resources exposées par l'API
 ### Livre
 ```
